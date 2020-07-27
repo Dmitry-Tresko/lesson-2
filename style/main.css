@@ -1,7 +1,5 @@
 body {
     margin: 0;
-    width: 1400px;
-    height: 590px;
     text-align: center;
 }
 
@@ -15,19 +13,16 @@ body {
 
 .divider {
     background: orange;
+    width: 64px;
     height: 2px;
     margin-bottom: 30px;
     margin-top: 30px;
-    margin-left: 668px;
-    margin-right: 668px;
 }
 
 .subject {
-    text-align: left;
     font-size: 14px;
     font-weight: normal;
     font-family: 'Open Sans', sans-serif;
-    margin-left: 520px;
     color: #86878B;
 }
 
@@ -68,6 +63,15 @@ body {
     width: 35px;
     height: 21px;
     margin-top: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image_lightning {
+    width: 17px;
+    height: 31px;
+    margin-top: 19px;
     display: block;
     margin-left: auto;
     margin-right: auto;
